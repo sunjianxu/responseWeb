@@ -1,0 +1,16 @@
+# editorconfig.org
+
+# 指定此配置文件的权限是最高的
+root = true  
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = space
+# 是否在代码结尾添加新行
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+# 是否去除空白符
+trim_trailing_whitespace = false
